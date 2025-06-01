@@ -24,3 +24,7 @@ It provides one table, an api, and a client for interacting with a `per user key
 Doing this in order helps understand the flow that best helped me.
 
 If you have any comments or requested changes, please don't hesitate to ask, that said, the goal of this project is to be as __understandable__ as possible not as feature rich as possible.
+
+## Running the example:
+
+In the root directory `npm run build` then in the example directory run both `npm run dev:backend` and `npm run dev:frontend` and visit [http://localhost:3000](http://localhost:3000)
