@@ -10,16 +10,16 @@ It provides one table, an api, and a client for interacting with a `per user key
 
 ### In the core:
 
-1. The component schema, ./src/component/schema.ts
-2. The public API for the component schema, ./src/component/public.ts
-3. The client that the host app will use to interact with the public API, ./src/client/index.tsx
-4. Take a moment to read ./src/component/convex.config.ts to see how this is exported.
+1. The component schema, [./src/component/schema.ts](./src/component/schema.ts)
+2. The public API for the component schema, [./src/component/public.ts](./src/component/public.ts)
+3. The client that the host app will use to interact with the public API, [./src/client/index.tsx](./src/client/index.tsx)
+4. Take a moment to read [./src/component/convex.config.ts](./src/component/convex.config.ts) to see how this is exported.
 
 ### In the example application.
 
-1. Import and use the component ./example/convex/convex.config.ts
-2. Instantiate the client for the component and expose it's features to the example application ./example/convex/keyvalue.ts
-3. Use the newly exported convex queries/mutations ./example/src/app/page.tsx
+1. Import and use the component [./example/convex/convex.config.ts](./example/convex/convex.config.ts)
+2. Instantiate the client for the component and expose it's features to the example application [./example/convex/keyvalue.ts](./example/convex/keyvalue.ts)
+3. Use the newly exported convex queries/mutations [./example/src/app/page.tsx](./example/src/app/page.tsx)
 
 Doing this in order helps understand the flow that best helped me.
 
